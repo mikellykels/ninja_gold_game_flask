@@ -1,0 +1,75 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: Arial, sans-serif;
+}
+
+#container{
+    width: 970px;
+    height: auto;
+
+}
+
+#gold{
+    margin-top: 50px;
+}
+
+#farm, #cave, #house, #casino{
+    width: 175px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+        h3, p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+        input[type=submit]{
+            margin-left: 55px;
+            border: 1px solid black;
+            background: #55A3F0;
+            border-radius: 5px;
+
+        }
+
+#activity{
+    padding: 10px;
+    margin-top: 30px;
+    width: 970px;
+    height: 150px;
+    font-size: 15px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+    #activity p{
+        text-align: left;
+    }
+
+    h4{
+        margin-top: 30px;
+    }
+
+    button{
+        margin-top: 20px;
+        border: 1px solid black;
+        background: #A81212;
+        border-radius: 5px;
+        color: white;
+    }
+
+.win{
+    color: green;
+}
+
+.lose{
+    color: red;
+}
